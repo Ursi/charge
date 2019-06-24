@@ -1,7 +1,7 @@
 import mathx from './mathx.js';
 
 const arrayx = {
-    keySort(...keys) {
+    /*keySort(...keys) {
         function standardSort(a, b) {
             return a < b ? -1 : 1;
         }
@@ -38,7 +38,7 @@ const arrayx = {
         }
 
         this.sort((a, b) => sortFunc(a, b, keys[0], keys.slice(1)));
-    },
+    },*/
     randomRemove(){
         let i = mathx.randInt(this.length);
         return this.splice(i, 1)[0];
