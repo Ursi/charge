@@ -1,6 +1,4 @@
-import jsx from './modules/jsx/jsx.js';
-jsx.buildIn();
-
+import jsx from './modules/jsx.js'; jsx.buildIn();
 import ElemStr from './modules/ElemStr.js';
 import hotkeys from './modules/hotkeys.js';
 

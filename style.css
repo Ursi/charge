@@ -67,7 +67,7 @@ body {
     font-size: 1.5em;
     color: #444;
     cursor: pointer;
-    text-shadow: 0 0 2.5px black;
+    text-shadow: 0 0 2px black;
 }
 
 .sidebar {
