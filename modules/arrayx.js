@@ -52,7 +52,7 @@ const arrayx = {
             }
         }
 
-        this.sort((a, b) => sortFunc(a, b, keys[0], keys.slice(1)));
+        return this.sort((a, b) => sortFunc(a, b, keys[0], keys.slice(1)));
     },
     randomRemove(){
         let i = mathx.randInt(this.length);
@@ -65,6 +65,8 @@ const arrayx = {
             this[i] = this[swap];
             this[swap] = val;
         }
+
+        return this;
     },
 };
 

@@ -1,7 +1,7 @@
 const mathx = {
     randInt(lower, upper) {
         if (upper) {
-            return Math.floor(Math.random() * (upper - lower + 1));
+            return lower + Math.floor(Math.random() * (upper - lower + 1));
         } else {
             return Math.randInt(0, lower - 1);
         }
