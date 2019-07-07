@@ -1,0 +1,9 @@
+[submodule "ElemStr"]
+	path = modules/ElemStr
+	url = https://github.com/Ursi/ElemStr.git
+[submodule "jsx"]
+	path = modules/jsx
+	url = https://github.com/Ursi/jsx.git
+[submodule "WebHK"]
+	path = modules/WebHK
+	url = https://github.com/Ursi/WebHK.git

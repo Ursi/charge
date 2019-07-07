@@ -1,6 +1,6 @@
-import jsx from './modules/jsx.js'; jsx.buildIn();
-import ElemStr from './modules/ElemStr.js';
-import hotkeys from './modules/hotkeys.js';
+import jsx from './modules/jsx/jsx.js'; jsx.buildIn();
+import ElemStr from './modules/ElemStr/ElemStr.js';
+import hotkeys from './modules/WebHK/hotkeys.js';
 
 {//debugging
     globalThis.hotkeys = hotkeys;
