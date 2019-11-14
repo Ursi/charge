@@ -153,7 +153,7 @@ class Level extends ElemStr {
 	}
 }
 
-const reactionTime = 300; //ms
+const reactionTime = 1000; // ms
 const charsStr = '`1234567890-=qwertyuiop[]\\asdfghjkl;\'zxcvbnm,./~!@#$%^&*()_+{}|:"<>?' //no space
 var allChars = [];
 for (let char of charsStr) {
